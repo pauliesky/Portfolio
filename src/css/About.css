@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.about {
+ background-color: #bce6ff;
+  height: 50rem;
+  padding-top: 10rem;
+}
+
+.about-info {
+  width: 50rem;
+  height: 10rem;
+  background-color: red;
+  margin: auto;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.about-skills {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  height: 20rem;
+  width: 20rem;
+  background-color: white;
+  border: 1px solid rgb(202, 200, 200);
+  margin: auto;
+}
+
+/* .skill {
+  height: 6rem;
+  width: 6rem;
+  background-color: white;
+  font-size: 3rem;
+  padding-top: 20px;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid whitesmoke;
+  position: relative;
+  box-shadow: 1px 1px 4px 2px rgb(175, 172, 172);
+  margin: auto;
+}
+
+.icon-1 > i {
+  color: rgb(240, 101, 41);
+}
+.icon-2 > i {
+  color: rgb(227, 27, 95);
+}
+.icon-3 > i {
+  color: #f0db4f;
+}
+.icon-4 > i {
+  color: #61dbfb;
+}
+
+.skill > .badge {
+  font-size: 10px;
+  position: absolute;
+  top: 1px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  background-color: rgb(16, 219, 233);
+  color: rgb(26, 26, 151);
+  width: 3rem;
+  font-weight: 800;
+} */

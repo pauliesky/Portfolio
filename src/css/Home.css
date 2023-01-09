@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.home {
+  display: flex;
+  height: 50rem;
+
+}
+.home-details {
+  height: 300px;
+  width: 50rem;
+  margin-left: 8rem;
+  margin-top: 7rem;
+
+}
+
+.detail-1 {
+  height: 40px;
+  width: 22rem;
+  background-color: whitesmoke;
+  /* display: flex;
+  justify-content: space-evenly; */
+  margin: 10px 10px;
+  border-radius: 50px;
+  border: 0.5px solid whitesmoke;
+}
+.detail-hey {
+  height: 2rem;
+  width: 3rem;
+  background-color: blue;
+  border-radius: 50px;
+  margin: 7px 12px;
+  float: left;
+}
+.detail-hey > h5 {
+  text-align: center;
+  padding-top: 3px;
+  color: white;
+}
+
+.detail-1 > p {
+  text-align: center;
+  padding-top: 9px;
+  padding-right: 15px;
+}
+
+.detail-2 {
+  /* background-color: brown; */
+  margin-top: 15px;
+  margin-left: 10px;
+  font-size: 25px;
+}
+.detail-2 > p {
+  color: rgba(189, 209, 225, 0.926);
+  font-size: 20px;
+}
+
+.detail-3 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 25px;
+  /* background-color: chartreuse; */
+  height: 50px;
+  width: 25rem;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.hire-me {
+  height: 30px;
+  width: 8rem;
+  background-color: blue;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.hire-me:hover {
+  background-color: darkblue;
+}
+.cv {
+  background-color: white;
+  border: none;
+  color: blue;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  height: 30px;
+  width: 12rem;
+  /* padding-top: 3px;
+  padding-left: 3px; */
+  border-radius: 10px;
+  border: 1px solid blue;
+}
+
+.cv:hover {
+  background-color: blue;
+  color: white;
+}
+
+/* .home-img {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 40rem;
+  background-color: whitesmoke;
+  margin-right: 8rem;
+  margin-top: 8rem;
+} */
+/* .img-paul {
+  height: 40rem;
+  width: 30rem;
+  margin: auto;
+  border-radius: 20px 0px;
+} */
+
+@media (max-width:700px) {
+  .home-details {
+  height: 300px;
+  width: 30rem;
+  margin-left: 2rem;
+  margin-top: 7rem;
+  background-color: blue
+}
+
+  
+}
